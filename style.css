@@ -81,6 +81,14 @@ ul li:hover{
 .simpler-icon{
     width: 40px;
     margin-right: 20px;
+    border-radius: 50%;
+}
+
+.simplest-icon{
+    width: 70px;
+    border-radius: 50px;
+    border: 1px solid rgb(197, 197, 197);
+    margin-right: 15px;
 }
 
 .settings-bar{
@@ -127,4 +135,52 @@ ul li:hover{
     margin-right: 25px;
     margin-left: 15px;
     font-weight: bold;
+}
+
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 20px 0px 30px;
+}
+
+.profile-display{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+
+.greeting{
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.name{
+    font-size: 23px;
+}
+
+.make-post{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 25vw;
+    max-width: 276px;
+    min-width: 263px;
+    margin-bottom: 18px;
+}
+
+
+.head-button{
+    color: white;
+    font-weight: 500;
+    background-color: var(--bg-dashboard);
+    width: 75px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 5px;
+    margin-right: 10px;
 }
